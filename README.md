@@ -12,3 +12,4 @@ Feel free to suggest other helpful snippets, but this is by design and intent re
 # The actual snippets
 
 * python3 SimpleHTTPServer: `python3 -m http.server`
+* rename your current local branch in git: `git branch -m <new-name>`
