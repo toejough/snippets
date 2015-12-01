@@ -13,3 +13,5 @@ Feel free to suggest other helpful snippets, but this is by design and intent re
 
 * python3 SimpleHTTPServer: `python3 -m http.server`
 * rename your current local branch in git: `git branch -m <new-name>`
+* take notes on a commit in git `git notes add|append -m "<note>"`
+* view last notes in git `git notes show` or all notes with commits `git log`
