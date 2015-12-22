@@ -15,4 +15,4 @@ Feel free to suggest other helpful snippets, but this is by design and intent re
 * rename your current local branch in git: `git branch -m <new-name>`
 * take notes on a commit in git `git notes add|append -m "<note>"`
 * view last notes in git `git notes show` or all notes with commits `git log`
-* add an upstream github origin: `git remote add origin https://github.com/<person/org>/<project>.git`
+* add an upstream github origin: `git remote add origin https://github.com/<person|org>/<project>.git`
