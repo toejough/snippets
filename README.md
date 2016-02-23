@@ -16,3 +16,5 @@ Feel free to suggest other helpful snippets, but this is by design and intent re
 * take notes on a commit in git `git notes add|append -m "<note>"`
 * view last notes in git `git notes show` or all notes with commits `git log`
 * add an upstream github origin: `git remote add origin https://github.com/<person|org>/<project>.git`
+* generate and push ssh key: `ssh-keygen && ssh-copy-id <remote-host>`
+* get your bash script's dir, in the script: `DIR="$( cd "$( dirname "${BASH_SOURCE[0]}"  )" && pwd  )"` ([source](http://stackoverflow.com/a/246128/5372442))
