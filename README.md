@@ -19,3 +19,5 @@ Feel free to suggest other helpful snippets, but this is by design and intent re
 * generate and push ssh key: `ssh-keygen && ssh-copy-id <remote-host>`
 * get your bash script's dir, in the script: `DIR="$( cd "$( dirname "${BASH_SOURCE[0]}"  )" && pwd  )"` ([source](http://stackoverflow.com/a/246128/5372442))
 * dump your android log: `adb logcat > crash_dump.txt`
+* remove something from git, but not from your working tree (file system): `git rm --cached <thing>`
+* expand the command line - * autocompletion - `esc *` (if you're in vim mode)
