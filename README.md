@@ -21,3 +21,4 @@ Feel free to suggest other helpful snippets, but this is by design and intent re
 * remove something from git, but not from your working tree (file system): `git rm --cached <thing>`
 * expand the command line - * autocompletion - `esc *` (if you're in vim mode)
 * delete lines which match a pattern in vIM: `:%g/pattern/d`
+* find the active activity name in android: `adb shell dumpsys activity activities`
