@@ -25,3 +25,4 @@ Feel free to suggest other helpful snippets, but this is by design and intent re
 * get the top 10 time-sucks in a python function: `cProfile.run("<call>", "stats"); pstats.Stats("stats").sort_stats('tottime').print_stats(10)`
 * input text in an android device via adb: `adb shell input text <text>`
 * check/exit an ssh control master: `ssh -O check|exit <host>`
+* show hidden files on a mac: `defaults write com.apple.finder AppleShowAllFiles YES` then right-click & relaunch finder
