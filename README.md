@@ -27,3 +27,4 @@ Feel free to suggest other helpful snippets, but this is by design and intent re
 * check/exit an ssh control master: `ssh -O check|exit <host>`
 * show hidden files on a mac: `defaults write com.apple.finder AppleShowAllFiles YES` then right-click & relaunch finder
 * run a vim command from the commandline: `vim +<command> +qall` (where `<command>` is the command you'd type at a `:` prompt within vim)
+* stop OSX Photos app from launching every time you put an SD card in: `defaults -currentHost write com.apple.ImageCapture disableHotPlug -bool true`
